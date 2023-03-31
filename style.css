@@ -1,0 +1,65 @@
+/* CHEAT SHEET: bg, bgc, c, bgi, f, ff, fz, ff:ss, cur, bd, p, w, m,
+m:a, mt, mb, bxz, maw, ta:c, op, tt, cur   */
+body {
+  background-color: #0fa656;
+  background: linear-gradient(45deg, hsla(167, 55%, 37%, 1) 0%,
+  hsla(148, 83%, 35%, 1) 96%, hsla(167, 55%, 37%, 1) 100%);
+  font-family: "Roboto", sans-serif;
+}
+
+/* login */
+.content {
+  width: 390px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  
+}
+
+.header {
+  margin-top: 0px;
+  
+}
+
+.form {
+  background: #FFFFFF;
+  max-width: 350px;
+  margin: 0 auto 200px;
+  padding: 35px;
+  text-align: center;
+  margin-top: 20px;
+}
+  
+.form input {
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  text-transform: uppercase;
+  background-color: #0fa656;
+  background-image: linear-gradient(45deg,#0fa656,#2b947e);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.form .message a {
+  color: #0fa656;
+  text-decoration: none;
+} 
+
+.container{
+  width: 390px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+}
