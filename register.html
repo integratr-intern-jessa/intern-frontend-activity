@@ -1,35 +1,37 @@
 <!-- REGSITRATION FORM -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <!-- First Name, Last Name, UserName, Password and Confirm Password -->
     <div class="container">
-    <div class="form">
-    <h3>Registration</h3>
-    <form action="#">
-        <div class="input-field">
-            <input type="text" placeholder="first name" required>
-            <input type="text" placeholder="last name" required>
-            <input type="text" placeholder="user Name" required>
-            <input type="password" placeholder="password" minlength="8" required>
-            <input type="password" placeholder="confirm password" minlength="8" required>
+      <div class="form">
+        <h3>Registration</h3>
+        <form method="" action="#" name="registration_form" onsubmit="return validate(), verifyPassword()">
+          <div class="input-field">
+            <input type="text" name="fname" placeholder="First Name">
+            <input type="text" name="lname" placeholder="Last Name">
+            <input type="text" name="uname" placeholder="User Name">
+            <input type="password" name="pass" id="pass" value="" placeholder="Password" >
+            <span id = "message" style="color:red"> </span>
+            <input type="password" name="cpass" id="confirmpass" value="" placeholder="Confirm password">
             <button>REGISTER</button>
+          </div>
+        </form>
+        <br>
+        <div class="login-link">
+          <span class="message">Already have an account?
+          <a href="index.html"> Login</a></span>
         </div>
-    </form><br>
-    <div class="login-link">
-        <span class="message">Already have an account?
-            <a href="index.html"> Login</a></span>
-        </div>
+      </div>
     </div>
-  </div>
-  </div>
-  <script src="myscripts.js"></script>
-</body>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>
