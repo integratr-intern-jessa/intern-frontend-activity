@@ -1,3 +1,18 @@
-.btn {
-    border-radius: 50px;
+.cover {
+    background-image: url('img/lock.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cover-text {
+    text-align: left;
+    color: white;
+  }
+
+.small-text {
+    color: white;
+    margin-bottom: 50px;
 }
